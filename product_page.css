@@ -1,0 +1,92 @@
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+header {
+  background-color: #FF0040;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.container {  
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 720px;
+  margin: 3.125rem auto 0 auto;
+}
+.container-video{
+  font-style: italic;
+  font-size: 10px;
+  max-width: 720px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 1.3rem;
+  margin: 0 auto;  
+  margin: 3.125rem auto 0 auto;
+  background-color: #F7819F;
+  margin-bottom: 50px;
+}
+.container-product {  
+  width: 20%;
+  padding-top: 10px;
+  margin: 0 auto;  
+  margin: 3.125rem auto 0 auto;
+}
+
+#div-info-comida {
+  display: flex; 
+  text-align: justify;  
+  text-align: left;
+  flex-direction: row-reverse;
+}
+
+#div-info-bebida {
+  display: flex;   
+  text-align: justify;
+  text-align: left;
+  flex-direction: row-reverse;
+}
+
+#div-info-postre {
+  display: flex; 
+  text-align: justify;
+  text-align: left;
+  flex-direction: row-reverse;
+}
+.container-product-all {      
+  display: inline-flex;    
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;  
+  margin: 3.125rem auto 0 auto;
+}
+#img-comida > img {
+  width: 100px;  
+  margin-left: 5px;
+}
+
+#img-bebida > img {
+  width: 100px;  
+  margin-left: 5px;
+}
+
+#img-postre > img {
+  width: 100px;  
+  margin-left: 10px;
+}
+
+
+
