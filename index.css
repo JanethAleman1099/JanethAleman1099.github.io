@@ -1,0 +1,23 @@
+.welcome-section {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+.container-product-all {      
+  display: inline-flex;    
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;  
+  margin: 3.125rem auto 0 auto;
+}
+.container-product {  
+  width: 20%;
+  padding-top: 10px;
+  margin: 0 auto;  
+  margin: 3.125rem auto 0 auto;
+}
