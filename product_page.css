@@ -87,6 +87,18 @@ header {
   width: 100px;  
   margin-left: 10px;
 }
+#img-comida-1 > img {
+  width: 100px;  
+  margin-left: 5px;
+}
+#img-bebida-1 > img {
+  width: 100px;  
+  margin-left: 5px;
+}
+#img-postre-1 > img {
+  width: 100px;  
+  margin-left: 10px;
+}
 
 
 
